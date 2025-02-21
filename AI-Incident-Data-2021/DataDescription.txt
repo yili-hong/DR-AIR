@@ -1,1 +1,5 @@
-#data freeze date: October 09, 2021.
+Below is the data description for the AI Incident dataset, which was cleaned and used in Hong et al. (2023).
+
+This subfolder contains the cleaned AI Incident dataset. In general, the AI Incident dataset records incidents involving the use of AI systems that result in harm or near-harm consequences. Hong et al. (2023) cleaned the data up to October 9, 2021.
+
+For the data dictionary of this specific dataset, please refer to the paper "Bridging the Data Gap in AI Reliability Research and Establishing DR-AIR: A Comprehensive Data Repository for AI Reliability".

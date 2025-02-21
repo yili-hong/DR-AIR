@@ -1,0 +1,9 @@
+Below is the data description for the California DMV disengagement event datasets. The original dataset was downloaded from the California DMV website and cleaned by Min et al. (2022).
+
+This subfolder contains three separate .csv files, each including information on:
+
+1. Disengagement events focusing on four manufacturers: Waymo, Cruise, Pony AI, and Zoox.
+2. Mileage information for all vehicles over a 24-month period (e.g., from November 30, 2017, to November 30, 2019).
+3. A monthly information file providing details related to each month, enabling the calculation of daily mileage for autonomous vehicles and supporting further reliability analysis.
+
+For the data dictionary of this specific dataset, please refer to the paper "Bridging the Data Gap in AI Reliability Research and Establishing DR-AIR: A Comprehensive Data Repository for AI Reliability".

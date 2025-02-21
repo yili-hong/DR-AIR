@@ -1,0 +1,5 @@
+Below is the data description for the dataset containing module-level error events from AI systems in autonomous vehicles(AVs) across various driving scenarios, created by Pan et al. (2024).
+
+The tested modules belong to the perception system, which includes cameras and LiDAR sensors. This AI system consists of three key modules: 2-dimensional (2-D) detection, 3-D detection, and object localization. The dataset was collected from a physics-based AV simulation platform, where an error injection framework was developed to efficiently generate error events from various AI system modules in AVs.
+
+For the data dictionary of this specific dataset, please refer to the paper "Bridging the Data Gap in AI Reliability Research and Establishing DR-AIR: A Comprehensive Data Repository for AI Reliability".

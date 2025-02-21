@@ -1,0 +1,7 @@
+Below is the data description for the dataset used to evaluate the reliability and resilience of image recognition systems under adversarial conditions, created by Faddi et al. (2024).
+
+This subfolder contains two datasets used to investigate the performance of CNNs on both clean and perturbed image inputs:
+1. Failure count dataset, which records the training and evaluation of the CNNs. 
+2. Failure time dataset, which uses the index of misclassified images as the failure time.
+
+For the data dictionary of these specific datasets, please refer to the paper "Bridging the Data Gap in AI Reliability Research and Establishing DR-AIR: A Comprehensive Data Repository for AI Reliability".

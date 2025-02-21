@@ -1,2 +1,15 @@
 Data Set Name,Description,Source
-AI-Incident-Data-2021,AI incident  data used cleaned by Hong et al. (2023),Hong et al. (2023)
+AI-Incident-Data-2021,AI incident  data used and cleaned by Hong et al. (2023),Hong et al. (2023)
+AI-Robustness-Data,The test dataset is used to assess the robustness of AI classification algorithms created by Lian et al. (2021).,Lian et al. (2021)
+AI-Image-Adversarial-Data,The datasets used to investigate the performance of CNNs on both clean and perturbed inputs were created by Faddi et al. (2024).,Faddi et al. (2024)
+AI-Perception-System-Data,The dataset contained module-level error events from AI in autonomous vehicles (AVs) operating across various driving scenarios and was created by Pan et al. (2024).,Pan et al. (2024)
+California-DMV-Disengagement-Data,The disengagement event dataset for AVs was obtained from the California DMV website and cleaned by Min et al. (2022).,California DMV website and Min et al. (2022)
+California-DMV-Collision-Data,The collision event data for AVs is another type of recurrent event data used to measure the reliability of AI systems.,California DMV website
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+ ,,

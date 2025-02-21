@@ -1,0 +1,73 @@
+IncidentNo,Company,Sector,System,Algorithm,Cause,IncidenceDescription,Casuality,Injured,Comment
+1,YouTube Kids,information,recommendation,recommendation algorithm,inappropriate content,,no,no,
+2,Amazon,information,robot,control algorithm,mis-control,,no,yes,
+3,Boeing,transportation,autopilot,autopilot,sensor fault,,yes,yes,
+4,Uber,transportation,self-driving,control algorithm,fail to stop,,yes,no,emergency stop disabled
+5,Unknown,medical,robot,unknown,malfunction,,yes,yes,
+6,Microsoft,information,chatbot,content generating,input problem,"generate racist, sexist, and anit-semetic tweets",no,no,
+7,Wikipedia,information,content-bot,content generating,bots fighting,bots editing each other's contents recursively,no,no,
+8,Uber,transportation,self-driving,self-driving,mapping error,fail to stop in red light,no,no,
+16,Google,information,computer-vision,classification and image recognition,classification error,mislabeld photos of black people as gorillas,no,no,
+17,Google ,information,nlp,"neural network, LSTM",incorrect prediction,give incorrect reply for emails sometimes,no,no,
+20,Tesla,transportation,self-driving,autopilot,failed to notice a trailer and break,car acidents,yes,yes,multiple car crashes happened
+21,unknown,information,nlp,unknown,inaccurracy,the chance of correct is only 3% higher than random ,no,no,
+22,Google,information,navigation,unknown,"The cause of the failure maybe that the algorithm tries to avoid congection areas, and there are congections in roads avoiding fire areas, but roads inside the fire areas are empty.",suggested routes during fire,no,no ,
+23,unknown,transportation,self-driving,self-driving,"The self-driving shuttle detected the other truck and stopped moving, but failed to reverse to avoid the colission",colission,no,no,the truck was backing up and then hit the self-driving shuttle
+24,Volkswagen,manufacturing,robot,unknown,"The victim was installing the robot therefore inside the ""safety cage"" which is usually not allowed to enter in order to preventing this kind of an accident",The robot grabbed and curshed the victim,yes,yes,
+25,Google and  Delphi,transportation,self-driving,self-driving,car cut-off,two self-driving cars were about to collide,no,no,
+26,Apple,consumer,security,facial recognition,adversarial input,hacked,no,no,
+27,Soviet Union,defense,threat-detection,detection,classification error,incorrectly detected light reflecting off clouds as missiles,no,no,
+28,Navinder Singh Saroa,finance,trading-bot,trading algorithm,the algorithm  purchase stocks but cancel the transaction before it was carried out,caused  volatility of the stock market,no,no,
+30,Tesla,manufacturing,robot,unknown,over-reliance on robot caused slow down in producing Model 3,over-reliance on robot caused slow down in producing Model 3,no,no,The robot is just one of the reasons for lack of Model 3 cars
+31,Huandai Rotem,transportation,self-driving,self-driving,failed to stop,hit the wall in testing,no,no,
+32,Apple,consumer,security,facial recognition,adversarial input,more likely false matches for twins and siblings,no,no,
+34,Amazon,consumer,virtual-assistant,unknown,"recognize sound from TV, misinterprate commands",Mistakenly understood a girl's sentence and buy dollhouse by its own; Acting based on the vocie from TV,no,no,
+36,unknown,government,surveillance,facial recognition,recognized advertisement facial as a facial of jaywalker,The camera thinks the people on advertisement of a bus is a jaywalker and posted her name,no,no,
+46,Google Nest,consumer,smart-home,unknown,false alarm and faulty feature,,yes,no,
+48,unknown,government,security,automatic facial recogonition,unknown,,unknown,no,spokesman refuse to admit their system has any problem
+50,Decentralized Autonomous Organization,finance,cyber-security,trading algorithm,attaker,,yes,no,financial lost 70M at the time
+51,Knightscope,government,security-robot,"image recognition, environment sensing ",fail to recogonize small child,,yes,yes,
+52,Tesla,transportation,self-driving,autopilot,driver reckless behavior,,unknown,yes,kill the driver
+55,Amazon,consumer,virtual-assistant,speech regoconition and search algorithm,inappropriate search result,,no,no,
+58,Yandex,information,chatbot,NLP,filter for response is not enough,,yes,no,
+59,Google,information,nlp,"language translation, cognition, NLP",algorithm reinforce existing bias,,yes,no,
+62,Individual AI research scientist,consumer,content-bot,neural network,unknown,,no,no,
+64,Heriot-Watt University,consumer,robot,NLP,unknown,,no,no,
+67,Tesla,transportation,self-driving,autopilot,driver reckless behavior,,yes,no,
+68,Knightscope,government,security-robot,unknown,failed to detect uneven surfacial,,yes,no,
+69,SKH Metals Factory,manufacturing,robot,unknown,wrong detect human as threat,,yes,yes,
+70,Volvo,transportation,self-driving,"self-driving, environment sensing",sensor fault due to cold environment,,yes,no,
+71,Google ,transportation,self-driving,"self-driving, environment sensing",falsly predict human action of other cars,,unknown,no,
+72,facialbook ,information,nlp,"language translation, cognition, NLP",algorithm for minor language is not well trained,,yes,no,
+74,Data Work Plus,government,computer-vision,facial recognition,training data bias,,yes,no,
+77,knightscope,government,security-robot,unknown,failed to identify and handle tasks,,no,no,
+79,Chronic Kidney Disease Epidemiology Collaboration,healthcare,recommendation,recommendation algorithm,race multiplyer,,no ,no,
+80,unknown,sport,computer-vision,image classificaiton,failed to differentiate ball and bald head,,no ,no,
+81,Google,medical,computer-vision,"medical image processor, image classification",training dataset bias,,yes,no,
+82,facialbook ,information,nlp,"supervised learning, open source",benchmark for inaccurate information is unclear ,,no ,no,
+83,Miscrosoft,information,spam-filter,NLP spam classification ,classify based on signle word,,yes,no,
+85,Open AI,information,content-bot,"unsupervised learning, deep neural network",unknown,,unknown,no,The AI threaten to destory humankind 
+86,Irish Department of Education and Skills,education,evaluation,algorithmic internal model,algorithm bias,,yes,no,
+87,The Home Office of the UK Government,government,security,facial recognition,training dataset bias and label not accurate enough,,yes,no,
+89,Google,information,recommendation,recommendation algorithm,"keep recommend problematic content to user, faile to identify the inappropriate content",,no ,yes,The algorithm did not directly cause injury but may  play an role to help the killer became more radicalization
+91,Standford medical center,healthcare,software-guided-care,rule-based ranking algorithm ,algorithm didn't consider all important factors,,no ,yes,Only 7 out of 50000 get vaccin distributed in the first wave
+96,Houston,education,evaluation,proprietary algorithm,only using test score as a benchmark to measuring teacher's performance,,no ,no,
+97,Tesla,transportation,self-driving,autopilot,fasely identify red circle on flag as red lights,,no ,no,
+98,Boston Dynamic,information,robot,unknown,it is argued the robot dog is used in server and unsual environment ,,no ,no,
+101,unknown,finance,recommendation,finantech,disriminate algorithm,,yes,no,
+102,Apple Mircrosoft,information,nlp,NLP,not representative american african voice dataset,,no ,no,
+104,unknown,healthcare,software-guided-care,vaccine distribution algorithm,algorithm uses ZIP code instaed of census tract,,yes,no,
+105,Telsa,transportation,self-driving,autopilot,"sunligth make the camera confuse, fail to stop",,yes,yes,
+106,Luda,consumer,chatbot,NLP,learn racist content,,no ,no,
+108,unknown,consumer,security,facial recognition,bias towards race,,no,no,
+112,ShotSpotter,government,security,classification,miss detection,,no,no,
+113,facialbook,information,computer-vision,classifcation,falsely put wrong label on blacks,,no,no,
+114,Amazon,information,computer-vision,classifcation,falsely match facial of congress man,,no,no,
+116,Amazon,information,virtual-assistant,classification,incorrect penalty,,no,no,emplyee lose income
+117,TikTok,information,computer-vision,faciald based filter,bias for raciest,,no,no,
+118,unknown,information,content-bot,text generator,bias against certain religious,,no,no,
+121,UN,defense,autopilot,classification,unwanted attack,,no,no,
+123,Epic system,healthcare,software-guided-care,prediction,inaccurate prediction,,no,no,overstated claims
+124,healcare,healthcare,software-guided-care,diagnostic algorithm,bias for blacks,,no,no,
+125,amazon,consumer,robot,unknown,unknown,,no,yes,
+126,London Warehouse,consumer,robot,unknown,collision,,yes,no,

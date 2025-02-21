@@ -1,0 +1,3 @@
+Below is a description of the dataset used to assess the robustness of AI classification algorithms, focusing on their performance and stability under class imbalance and distribution shifts between training and test datasets. The dataset, created by Lian et al. (2021), contains simulated data from mixture experimental runs. Lian et al. (2021) evaluated algorithm prediction accuracy under balanced, consistent, and reverse scenarios.
+
+For the data dictionary of these specific datasets, please refer to the paper "Bridging the Data Gap in AI Reliability Research and Establishing DR-AIR: A Comprehensive Data Repository for AI Reliability".
