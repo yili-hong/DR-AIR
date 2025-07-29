@@ -1,5 +1,41 @@
-Below is the data description for the AI Incident dataset, which was cleaned and used in Hong et al. (2023).
+---------------
+GENERAL SUMMARY
+---------------
+This subfolder contains the cleaned AI Incident dataset, with data collected up to October 9, 2021, which was used in the following paper:
 
-This subfolder contains the cleaned AI Incident dataset. In general, the AI Incident dataset records incidents involving the use of AI systems that result in harm or near-harm consequences. Hong et al. (2023) cleaned the data up to October 9, 2021.
+Hong, Y., J. Lian, L. Xu, J. Min, Y. Wang, L. J. Freeman, and X. Deng (2023). "Statistical perspectives on reliability of artificial intelligence systems." Quality Engineering, 35(1), 56–78.
 
-For the data dictionary of this specific dataset, please refer to the paper "Bridging the Data Gap in AI Reliability Research and Establishing DR-AIR: A Comprehensive Data Repository for AI Reliability".
+----------------
+DATASET OVERVIEW
+----------------
+This dataset includes 72 observations and 10 variables. For detailed information on each variable, see the data dictionary below.
+
+---------------
+DATA DICTIONARY
+---------------
+| Variable             | Description                               | Data Type     |
+|----------------------|-------------------------------------------|---------------|
+| IncidentNo           | Incident case number                      | Identifier    |
+| Company              | Company for the system                    | Categorical   |
+| Sector               | Sector of the company                     | Categorical   |
+| System               | AI system                                 | Categorical   |
+| Algorithm            | Algorithm(s) used in the system           | Text          |
+| Cause                | Cause of the incident                     | Text          |
+| IncidentDescription  | Description of the incident               | Text          |
+| Causality            | Is causality established?                 | Binary        |
+| Injured              | Any human injured?                        | Binary        |
+| Comment              | Additional comments for the incident      | Text          |
+
+------------
+DATA SUMMARY
+------------
+The AI Incident dataset records incidents involving the use of AI systems that resulted in harm or near-harm consequences. The dataset was cleaned by Hong et al. (2023), with data current as of October 9, 2021.
+
+--------------------
+CITATION INFORMATION
+--------------------
+To properly cite this AI Incident dataset - for example, if you intend to conduct new research based on this cleaned and published dataset - please reference the DR-AIR paper, where the dataset is clearly documented:
+
+Zheng, S., J. M. Clark, F. Salboukh, P. Silva, K. da Mata, F. Pan, J. Min, J. Lian, C. B. King, L. Fiondella, et al. (2025). "Bridging the data gap in AI reliability research and establishing DR-AIR: A comprehensive data repository for AI reliability." arXiv preprint arXiv:2502.12386.
+
+Note: We currently only have the full citation for the arXiv version. Once the paper is formally published, we will update the citation in *Quality Engineering*.

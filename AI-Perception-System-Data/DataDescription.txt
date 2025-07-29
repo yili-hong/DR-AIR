@@ -1,5 +1,46 @@
-Below is the data description for the dataset containing module-level error events from AI systems in autonomous vehicles(AVs) across various driving scenarios, created by Pan et al. (2024).
+---------------
+GENERAL SUMMARY
+---------------
+This subfolder contains module-level error events from AI systems in autonomous vehicles (AVs) across various driving scenarios. The dataset was created and used by Pan et al. (2024) in the following paper:
 
-The tested modules belong to the perception system, which includes cameras and LiDAR sensors. This AI system consists of three key modules: 2-dimensional (2-D) detection, 3-D detection, and object localization. The dataset was collected from a physics-based AV simulation platform, where an error injection framework was developed to efficiently generate error events from various AI system modules in AVs.
+Pan, F., Y. Zhang, J. Liu, L. Head, M. Elli, and I. Alvarez (2024). "Reliability modeling for perception systems in autonomous vehicles: A recursive event-triggering point process approach." Transportation Research Part C: Emerging Technologies 169, 104868.
 
-For the data dictionary of this specific dataset, please refer to the paper "Bridging the Data Gap in AI Reliability Research and Establishing DR-AIR: A Comprehensive Data Repository for AI Reliability".
+----------------
+DATASET OVERVIEW
+----------------
+The dataset includes 1932 observations and 11 variables. For detailed information on each variable, see the data dictionary below.
+
+---------------
+DATA DICTIONARY
+---------------
+| Variable                    | Description                                                          | Data Type   |
+|-----------------------------|----------------------------------------------------------------------|-------------|
+| ScenarioID                  | Identifier for each of the seven simulated driving scenarios         | Categorical |
+| Weather                     | Simulated weather conditions during the driving scenario             | Categorical | 
+| Observation window          | Time interval (in seconds) for observing and recording events        | Numeric     | 
+| EI time in 2D module        | Time interval for error injected into the 2D module                  | Numeric     | 
+| EI prob in 2D  module       | Probability for injecting errors into the 2D detection module        | Numeric     | 
+| EI time in 3D module        | Time interval for error injected into the 3D  module                 | Numeric     | 
+| EI prob in 3D module        | Probability for injecting errors into the 3D detection module        | Numeric     |
+| TimeStamp                   | Time at which an error event occurred or error free                  | Numeric     | 
+| 2D error indicator          | Indicates whether a 2D miss detection error occurred                 | Binary      | 
+| 3D error indicator          | Indicates whether a 3D miss detection error occurred                 | Binary      | 
+| Localization error indicator| Indicates whether a miss-localization error occurred                 | Binary      | 
+
+------------
+DATA SUMMARY
+------------
+The simulated modules tested in this dataset are part of the perception system, which includes cameras and LiDAR sensors. The AI perception system comprises three key components: 2D detection, 3D detection, and object localization. The dataset was generated using a physics-based AV simulation platform, within which an error injection framework was implemented to efficiently produce error events across the various AI system modules.
+
+--------------------
+CITATION INFORMATION
+--------------------
+To properly cite this AI Perception System dataset - for example, if you intend to conduct new research based on this cleaned and published dataset - please reference the DR-AIR paper, where the dataset is clearly documented:
+
+Zheng, S., J. M. Clark, F. Salboukh, P. Silva, K. da Mata, F. Pan, J. Min, J. Lian, C. B. King, L. Fiondella, et al. (2025). "Bridging the data gap in AI reliability research and establishing DR-AIR: A comprehensive data repository for AI reliability." arXiv preprint arXiv:2502.12386.
+
+Note: We currently only have the full citation for the arXiv version. Once the paper is formally published, we will update the citation in *Quality Engineering*.
+
+
+
+

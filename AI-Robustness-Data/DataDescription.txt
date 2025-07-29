@@ -1,3 +1,41 @@
-Below is a description of the dataset used to assess the robustness of AI classification algorithms, focusing on their performance and stability under class imbalance and distribution shifts between training and test datasets. The dataset, created by Lian et al. (2021), contains simulated data from mixture experimental runs. Lian et al. (2021) evaluated algorithm prediction accuracy under balanced, consistent, and reverse scenarios.
+---------------
+GENERAL SUMMARY
+---------------
+This subfolder contains data created by Lian et al. (2021), consisting of simulated data from mixture experimental runs. Lian et al. (2021) evaluated algorithm prediction accuracy under balanced, consistent, and reverse scenarios. The dataset was originally obtained from the following publication:
 
-For the data dictionary of these specific datasets, please refer to the paper "Bridging the Data Gap in AI Reliability Research and Establishing DR-AIR: A Comprehensive Data Repository for AI Reliability".
+Lian, J., L. Freeman, Y. Hong, and X. Deng (2021). "Robustness with respect to class imbalance in artificial intelligence classification algorithms." Journal of Quality Technology 53, 505–525.
+
+----------------
+DATASET OVERVIEW
+----------------
+This dataset includes 252 observations and 10 variables. For detailed information on each variable, see the data dictionary below.
+
+---------------
+DATA DICTIONARY
+---------------
+| Variable | Description                                                | Data Type      |
+|----------|------------------------------------------------------------|----------------|
+| x1       | Proportion of class 1 in the training dataset              | Numeric        |
+| x2       | Proportion of class 2 in the training dataset              | Numeric        |
+| x3       | Proportion of class 3 in the training dataset              | Numeric        |
+| z1       | Is the XGBoost algorithm applied?                          | Binary         |
+| z2       | Is the KEGG dataset used?                                  | Binary         |
+| c1       | Is the experiment conducted under a balanced scenario?     | Binary         |
+| c2       | Is the experiment conducted under a consistent scenario?   | Binary         |
+| c3       | Is the experiment conducted under a reverse scenario?      | Binary         |
+| y1       | Mean AUC across the three classes                          | Numeric        |
+| y2       | Logarithm of standard deviation of AUC                     | Numeric        |
+
+------------
+DATA SUMMARY
+------------
+This dataset is used to assess the robustness of AI classification algorithms, focusing on their performance and stability under class imbalance and distribution shifts between training and test datasets.
+
+--------------------
+CITATION INFORMATION
+--------------------
+To properly cite this AI robustness evaluation dataset - for example, if you intend to conduct new research based on this cleaned and published dataset - please reference the DR-AIR paper, where the dataset is clearly documented:
+
+Zheng, S., J. M. Clark, F. Salboukh, P. Silva, K. da Mata, F. Pan, J. Min, J. Lian, C. B. King, L. Fiondella, et al. (2025). "Bridging the data gap in AI reliability research and establishing DR-AIR: A comprehensive data repository for AI reliability." arXiv preprint arXiv:2502.12386.
+
+Note: We currently only have the full citation for the arXiv version. Once the paper is formally published, we will update the citation in *Quality Engineering*.

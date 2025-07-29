@@ -1,7 +1,55 @@
-Below is the data description for the dataset used to evaluate the reliability and resilience of image recognition systems under adversarial conditions, created by Faddi et al. (2024).
-
+---------------
+GENERAL SUMMARY
+---------------
 This subfolder contains two datasets used to investigate the performance of CNNs on both clean and perturbed image inputs:
-1. Failure count dataset, which records the training and evaluation of the CNNs. 
-2. Failure time dataset, which uses the index of misclassified images as the failure time.
 
-For the data dictionary of these specific datasets, please refer to the paper "Bridging the Data Gap in AI Reliability Research and Establishing DR-AIR: A Comprehensive Data Repository for AI Reliability".
+1. Failure count dataset, which records the training and evaluation outcomes of the CNNs.  
+2. Failure time dataset, which treats the index of misclassified images as the failure time.
+
+These datasets were created and used in the following paper:
+
+Faddi, Z., K. da Mata, P. Silva, V. Nagaraju, S. Ghosh, G. Kul, and L. Fiondella (2025). "Quantitative assessment of machine learning reliability and resilience". Risk Analysis 45 (4), 790–807.
+
+----------------
+DATASET OVERVIEW
+----------------
+The failure count dataset includes 132 observations and 16 variables. For detailed information on each variable, see the data dictionary below.
+
+---------------
+DATA DICTIONARY
+---------------
+| Variable           | Description                                                          | Data Type   |
+|--------------------|----------------------------------------------------------------------|-------------|
+| Scenario           | Different scenarios correspond to different epsilon ranges           | Categorical | 
+| EpsilonRange       | The epsilon range for a specific scenario                            | Categorical | 
+| T                  | The number of steps                                                  | Integer     | 
+| FC                 | Failure count, also denoted as FN                                    | Integer     | 
+| Alpha              | Learning rate used during retraining                                 | Numeric     |
+| F1                 | F1-score computed for the model on the poisoned dataset              | Numeric     | 
+| Epsilon            | Magnitude of noise applied to input samples                          | Numeric     |
+| FGSM               | Percentage of the 5000 adversarial attacks using FGSM                | Numeric     | 
+| PGD                | Percentage of the 5000 adversarial attacks using PGD                 | Numeric     |
+| TrainingAccuracy   | Accuracy of the model following the retraining step                  | Numeric     | 
+| TrainingLoss       | Loss of the model following the retraining step                      | Numeric     | 
+| ValidationAccuracy | Accuracy of the model following the retraining step                  | Numeric     | 
+| ValidationLoss     | Loss of the model following the retraining step                      | Numeric     | 
+| TestAccuracy       | Accuracy of the model on the poisoned dataset                        | Numeric     | 
+| TestLoss           | Loss recorded for the model on the poisoned dataset                  | Numeric     | 
+| Memory             | Memory consumption during iterative retraining                       | Numeric     | 
+
+------------
+DATA SUMMARY
+------------
+This dataset, created by Faddi et al. (2024), is used to evaluate the reliability and resilience of image recognition systems under adversarial conditions.
+
+--------------------
+CITATION INFORMATION
+--------------------
+To properly cite this AI Image dataset, - for example, if you intend to conduct new research based on this cleaned and published dataset - please reference the DR-AIR paper, where the dataset is clearly documented:
+
+Zheng, S., J. M. Clark, F. Salboukh, P. Silva, K. da Mata, F. Pan, J. Min, J. Lian, C. B. King, L. Fiondella, et al. (2025). "Bridging the data gap in AI reliability research and establishing DR-AIR: A comprehensive data repository for AI reliability." arXiv preprint arXiv:2502.12386.
+
+Note: We currently only have the full citation for the arXiv version. Once the paper is formally published, we will update the citation in *Quality Engineering*.
+
+
+

@@ -1,3 +1,58 @@
+---------------
+GENERAL SUMMARY
+---------------
+The original dataset was downloaded from the California Department of Motor Vehicles (DMV) website and cleaned in the following DR-AIR paper:
+
+Zheng, S., J. M. Clark, F. Salboukh, P. Silva, K. da Mata, F. Pan, J. Min, J. Lian, C. B. King, L. Fiondella, et al. (2025). "Bridging the data gap in AI reliability research and establishing DR-AIR: A comprehensive data repository for AI reliability." arXiv preprint arXiv:2502.12386.
+
+This subfolder contains three separate .csv files, each providing information on:
+
+1. Collision events focusing on four manufacturers: Waymo, Cruise, Pony AI, and Zoox.
+
+2. Mileage data for all vehicles over a 24-month period (e.g., from November 30, 2017, to November 30, 2019).
+
+3. A monthly summary file providing details for each month, enabling the calculation of daily mileage for autonomous vehicles and supporting further reliability analysis.
+
+----------------
+DATASET OVERVIEW
+----------------
+The collision event dataset includes 157 observations and 8 variables, focusing on four leading manufacturers: Waymo, Cruise, Pony AI, and Zoox. For detailed information on each variable, see the data dictionary below.
+
+---------------
+DATA DICTIONARY
+---------------
+| Variable    | Description                                                   | Data Type   | 
+|-------------|---------------------------------------------------------------|-------------|
+| Manufacturer| Manufacturing of the AVs                                      | Categorical | 
+| Date        | Date of collision event                                       | Date        | 
+| Time        | Time of collision event                                       | Time        | 
+| Month       | Month when collision occurred                                 | Categorical | 
+| MonthID     | Number identifiers for the 24 months in the 2-year period     | Categorical | 
+| EventID     | Number of distinct collision event dates                      | Identifier  | 
+
+------------
+DATA SUMMARY
+------------
+The California DMV Collision Dataset is a publicly available resource provided by the California DMV. It documents autonomous vehicle (AV) collision events — instances in which a self-driving car was involved in an actual crash during testing on public roads in California. Because it captures multiple collisions over time for each vehicle, it is considered a recurrent event dataset.
+
+--------------------
+CITATION INFORMATION
+--------------------
+To properly cite the California DMV collision events dataset - for example, if you intend to conduct new research based on this cleaned and published dataset - please reference the DR-AIR paper, where the dataset is clearly documented:
+
+Zheng, S., J. M. Clark, F. Salboukh, P. Silva, K. da Mata, F. Pan, J. Min, J. Lian, C. B. King, L. Fiondella, et al. (2025). "Bridging the data gap in AI reliability research and establishing DR-AIR: A comprehensive data repository for AI reliability." arXiv preprint arXiv:2502.12386.
+
+Note: We currently only have the full citation for the arXiv version. Once the paper is formally published, we will update the citation in *Quality Engineering*.
+
+
+
+
+
+
+
+
+
+
 Below is the data description for the California DMV collision event datasets. The original dataset was downloaded from the California DMV website.
 
 This subfolder contains three separate .csv files, each including information on:

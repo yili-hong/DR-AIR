@@ -9,11 +9,11 @@ This public GitHub repository contains eight files, as listed below:
 1. README.md
 2. DataList.csv: Contains a summary of the currently available datasets related to AI reliability.
 3. AI-Incident-Data-2021: Corresponds to the general AI incident data in Section 4.1 of the paper.
-4. AI-Classification-Algorithms-Data: Corresponds to Algorithm-Level Test Dataset 1 in Section 4.2 of the paper.
-5. AI-Image-Adversarial-Data: Corresponds to Algorithm-Level Test Dataset 2 in Section 4.3 of the paper.
-6. AI-Perception-System-Data: Corresponds to the module-level test data in Section 4.4 of the paper.
-7. California-DMV-Disengagement-Data: Corresponds to System-Level Test Dataset 1 in Section 4.5 of the paper.
-8. California-DMV-Collision-Data: Corresponds to System-Level Test Dataset 2 in Section 4.6 of the paper.
+4. AI-Classification-Algorithms-Data: Corresponds to algorithm robustness evaluation data in Section 4.2 of the paper.
+5. AI-Image-Adversarial-Data: Corresponds to algorithm-level adversarial test data in Section 4.3 of the paper.
+6. AI-Perception-System-Data: Corresponds to the Autonomous Vehicle (AV) perception module test data in Section 4.4 of the paper.
+7. California-DMV-Disengagement-Data: Corresponds to AV disengagement event data in Section 4.5 of the paper.
+8. California-DMV-Collision-Data: Corresponds to AV system collision event data in Section 4.6 of the paper.
 
 Note that for each folder from 3 to 8, there exists a DataDescription.txt file within the folder, providing a short description of the currently available reliability data.
 

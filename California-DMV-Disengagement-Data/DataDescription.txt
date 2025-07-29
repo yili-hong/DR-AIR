@@ -1,9 +1,46 @@
-Below is the data description for the California DMV disengagement event datasets. The original dataset was downloaded from the California DMV website and cleaned by Min et al. (2022).
+---------------
+GENERAL SUMMARY
+---------------
+The original dataset was downloaded from the California Department of Motor Vehicles (DMV) website and cleaned in the following paper:
 
-This subfolder contains three separate .csv files, each including information on:
+Min, J., Y. Hong, C. B. King, and W. Q. Meeker (2022). "Reliability analysis of artificial intelligence systems using recurrent events data from autonomous vehicles." Journal of the Royal Statistical Society: Series C (Applied Statistics), 71, 987–1013.
+
+This subfolder contains three separate .csv files, each providing information on:
 
 1. Disengagement events focusing on four manufacturers: Waymo, Cruise, Pony AI, and Zoox.
-2. Mileage information for all vehicles over a 24-month period (e.g., from November 30, 2017, to November 30, 2019).
-3. A monthly information file providing details related to each month, enabling the calculation of daily mileage for autonomous vehicles and supporting further reliability analysis.
 
-For the data dictionary of this specific dataset, please refer to the paper "Bridging the Data Gap in AI Reliability Research and Establishing DR-AIR: A Comprehensive Data Repository for AI Reliability".
+2. Mileage data for all vehicles over a 24-month period (e.g., from November 30, 2017, to November 30, 2019).
+
+3. A monthly summary file containing details for each month, enabling the calculation of daily mileage for autonomous vehicles and supporting further reliability analysis.
+
+----------------
+DATASET OVERVIEW
+----------------
+The disengagement event dataset includes 479 observations and 5 variables, focusing on four leading manufacturers: Waymo, Cruise, Pony AI, and Zoox. For detailed information on each variable, see the data dictionary below.
+
+---------------
+DATA DICTIONARY
+---------------
+| Variable    | Description                                                   | Data Type   |
+|-------------|---------------------------------------------------------------|-------------|
+| Manufacture | Manufacturer of the AVs                                       | Categorical | 
+| VIN         | Unique vehicle identification number                          | Identifier  |
+| Date        | Disengagement event occurrence dates                          | Date        | 
+| Month       | Disengagement event occurrence months                         | Categorical | 
+| MonthID     | Identifier for the 24 months in the 2-year period             | Categorical | 
+
+------------
+DATA SUMMARY
+------------
+The California DMV disengagement dataset is a publicly available resource provided by the California DMV. It documents autonomous vehicle (AV) disengagement events - instances where a human driver had to take control of a self-driving car during testing on public roads in California. Because it captures multiple disengagements over time for each vehicle, it is considered a recurrent event dataset.
+
+--------------------
+CITATION INFORMATION
+--------------------
+To properly cite the California DMV disengagement events dataset - for example, if you intend to conduct new research based on this cleaned and published dataset - please reference the DR-AIR paper, where the dataset is clearly documented:
+
+Zheng, S., J. M. Clark, F. Salboukh, P. Silva, K. da Mata, F. Pan, J. Min, J. Lian, C. B. King, L. Fiondella, et al. (2025). "Bridging the data gap in AI reliability research and establishing DR-AIR: A comprehensive data repository for AI reliability." arXiv preprint arXiv:2502.12386.
+
+Note: We currently only have the full citation for the arXiv version. Once the paper is formally published, we will update the citation in *Quality Engineering*.
+
+
